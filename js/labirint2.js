@@ -587,7 +587,7 @@ document.getElementById("restart").style.visibility = "hidden";
 					/*title: 'Auto close alert! <strong></strong> ',*/
 					html:
 						'T-<strong></strong> seconds.<br/><br/>',
-					timer: 3000,
+					timer: 11000,
 					didOpen: () => {
 						const content = Swal.getHtmlContainer()
 						const $ = content.querySelector.bind(content)
