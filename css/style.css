@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One Fredoka');
+body  {
+  font-family:"Fredoka One";
+  background-image: url("../img/bg2.png");
+  /*background-repeat: no-repeat;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
+	
+}
+
+div#swal2-html-container{
+    font-size: 30px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding:10px 20px 10px 20px;
+	box-shadow: 0px 0px 10px 2px white;
+	
+	font-family:"Fredoka One";
+	transition:0.2s;
+}
+#gumb:hover {
+    background-color: #ffda96;
+    color: black;
+}
+h1{
+	font-size:41px;
+	/*margin-left: 2%;*/
+	color: white;
+	/* 1 pixel black shadow to left, top, right and bottom */
+    /*text-shadow: -1px 0 #ebc786, 0 1px #ebc786, 1px 0 #ebc786, 0 -1px #ebc786;*/
+}
+.naslov{
+	position: relative;
+	margin-top: -2%;
+	
+}
+
+.container {
+    position: relative;
+}
+
+canvas{
+	box-shadow: 0px 0px 10px 2px white;
+}
+
+.lab{
+	position:relative;
+}
+
+#launch {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#moon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.container .canvas {
+    position: relative;
+}
+
+.container .canvas .bt1{
+    position: relative;
+    /*padding: 5%;*/
+    margin-left: 40%;
+}
+
+#restart {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#restart:hover {
+    background-color: #d92b2d;
+    color: black;
+}
+
+
