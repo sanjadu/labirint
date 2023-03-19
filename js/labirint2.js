@@ -581,6 +581,8 @@ document.getElementById("restart").style.visibility = "hidden";
 
 			let timerInterval
 			function sweet(){
+				var audio = new Audio('sound/rocket_sound4.mp3');
+				audio.play();
 				Swal.fire({
 					/*title: 'Auto close alert! <strong></strong> ',*/
 					html:
