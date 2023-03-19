@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One">
+
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.2/dist/sweetalert2.all.min.js"></script>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+    <body>
+		<div class="naslov">
+			<h1 id="tekst">TAKE ME TO THE MOON</h1>
+			<div class="container">
+				<div class="canvas">
+					<div class="lab">
+						<canvas width="484px" height="484px" id="labirint"></canvas>
+						<img src="img/launch1.jpg" id="launch" alt="launch" width="484px" height="484px">
+						<img src="img/astronaut1.jpg" id="moon" alt="moon" width="484px" height="484px">
+					</div>
+					<br>
+					<br>
+					<div class="bt1">
+						<button id="gumb" onclick="sweet();">LAUNCH</button>
+						<button id="restart" onclick="window.location.reload();">RESTART</button>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<script src="js/labirint2.js"></script>
+    </body>
+	
+</html>
