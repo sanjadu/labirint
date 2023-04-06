@@ -18,13 +18,14 @@ button {
     background-color: black;
     color: white;
     padding:10px 20px 10px 20px;
-	box-shadow: 0px 0px 10px 2px white;
+    box-shadow: 0px 0px 10px 2px white;
 	
-	font-family:"Fredoka One";
-	transition:0.2s;
+    font-family:"Fredoka One";
+    transition:0.2s;
+    border-radius: 8px;
 }
 #gumb:hover {
-    background-color: #ffda96;
+    background-color: white;
     color: black;
 }
 h1{
@@ -56,11 +57,15 @@ canvas{
     position: absolute;
     left: 0px;
     top: 0px;
+    box-shadow: 0px 0px 10px 2px white;
+    opacity: 0.9;
 }
 #moon {
     position: absolute;
     left: 0px;
     top: 0px;
+    box-shadow: 0px 0px 10px 2px white;
+    opacity: 0.9;
 }
 
 .container .canvas {
@@ -80,7 +85,7 @@ canvas{
 }
 
 #restart:hover {
-    background-color: #d92b2d;
+    background-color: white;
     color: black;
 }
 
