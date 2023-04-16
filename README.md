@@ -1,2 +1,2 @@
 # labirint
-sanjadu.github.io/labirint
+https://sanjadu.github.io/labirint/
