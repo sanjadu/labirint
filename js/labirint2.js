@@ -675,10 +675,28 @@ document.getElementById("restart").style.visibility = "hidden";
 			            deletThis();
 			        }
 				if(d<=1){
+					var audio1 = new Audio('sound/landing.mp3');
+					audio1.play();
 					document.getElementById("labirint").style.visibility = "hidden";
-					document.getElementById("moon").style.visibility = "visible";
+					premakniSlikoNavzdol();
 					document.getElementById("tekst").innerHTML = "LANDED ON THE MOON";
 					document.getElementById("restart").style.visibility = "visible";
 				}
 			    d--;
+			}
+
+			function premakniSlikoNavzdol() {
+			  let slika = document.getElementById("moon");
+			  slika.style.visibility="visible";
+			  let pozicija = -200;
+			  let intervalID = setInterval(frame, 10);
+			  
+			  function frame() {
+				if (pozicija == 0) { 
+				  clearInterval(intervalID);
+				} else {
+				  pozicija++; 
+				  slika.style.top = pozicija + "px";
+				}
+			  }
 			}
